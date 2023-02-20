@@ -1,0 +1,62 @@
+/* début "CSS pages" */
+
+::placeholder{
+    color: white;}
+
+summary img{
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;}
+
+details {
+    cursor: default;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;}
+
+summary::marker{display: none;}
+
+summary{
+    width: 100%; 
+    cursor: pointer;}
+
+details[open] .separation{border-bottom: 1px solid black; margin: 20px 0px;}
+
+strong{cursor: help;}
+
+/* fin "CSS pages" */
+
+/* début "CSS text" */
+
+p{display: none;}
+.sautdeligne{
+    padding: 8.9px 0px;}
+.title{
+    width: 100%;
+    margin: 0;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;}
+.infos_title{
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 5px;}
+.text{
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 1px;}
+.dialogue{
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    text-indent: 20px;
+    margin-bottom: 1px;}
+
+
+/* fin "CSS text" */
